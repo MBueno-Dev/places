@@ -30,7 +30,7 @@
             <button type="submit">Enviar</button>
             <br>
         </form>
-        <form action="/places/delete/{{$place->id}}" method="POST">
+        <form action="/places/delete/{{$place->id}}" method="GET">
             @csrf
             <button type="submit">Deletar</button>
         </form>
